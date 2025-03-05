@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h4 style="font-size: 20px; color:aliceblue; ">Welcome</h4>
+            <img src="../img/logo.jpg" alt="logo" style="height: 40px; width: 40px;">
+        </div>
+        <div id="form" style="text-align:left;">
+            <form action="" method="post">
+                <label style="font-weight: bold; font-size: 18px">email</label><br>
+                <input type="email" name="email" id="email" placeholder="email" style="width:330px; height: 30px; margin-bottom: 20px" required><br>
+                <label style="font-weight: bold; font-size: 18px">Password</label><br>
+                <input type="password" name="password" id="pass" placeholder="Password" style="width:330px;  height: 30px; margin-bottom: 30px;" minlength="8" required><br>
+            </form>
+            <button type="submit" style="margin-bottom: 30px;">Log In</button>
+        </div>
+        <a href=""><p style="text-align:center; font-weight:bold; font-size:20px" >Forgot Password?</p></a>
+    </div>
+    <script src="../js/login.js"></script>
+</body>
+</html>

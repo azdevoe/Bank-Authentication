@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Register</title>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h4 style="font-size: 20px; color:aliceblue; ">Registration</h4>
+            <img src="../img/logo.jpg" alt="logo" style="height: 40px; width: 40px;">
+        </div>
+        <div id="content">
+            <form  id="form">
+                <label style="font-weight: bold; font-size: 18px">Email</label><br>
+                <input type="email" name="email"  placeholder="Enter your email" style="width:330px; height: 30px; margin-bottom: 10px" required><br>
+                
+                <label style="font-weight: bold; font-size: 18px">Password</label><br>
+                <input type="password"  name="password1"  placeholder="Password" style="width:330px; height: 30px; margin-bottom: 20px" minlength="8" required><br>
+
+                <label style="font-weight: bold; font-size: 18px">Reconfirm Password</label><br>
+                <input type="password" name="password2" placeholder="Confirm your Password" style="width:330px; height: 30px; margin-bottom: 20px" required><br>
+
+                <p>By registering I agree to Zenith Bank's <span>Terms</span> and <span>Privacy Policy</span></p>
+                    
+                <button type="submit">CONTINUE</button>
+            </form>
+            
+        </div>
+    </div>
+    <script src="../js/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+    font-size: 14px;
+    width: 100vh;
+    padding: 70px 400px;
+    color: #fff;
+}
+
+#container{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('img/background.jpg');
+    width: 70%;
+    padding: 20px;
+    height: 500px;
+    background-color: rgb(225, 243, 237);
+    align-items: center;
+    border-radius: 20px;
+}
+
+#logo{
+    text-align: center;
+    padding-left: 400px;
+}
+
+#page_content{
+    width: 80%;
+    height: 70px;
+    margin-top: 50%;
+    margin-bottom: 50px;
+}
+
+button{
+    width:458px;
+    height:40px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 18px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#link, a{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* for media on xr */
+@media only screen and (max-width: 540px) {
+    #container{
+        padding: 20px;
+        width: 30%;
+        height: 50%
+    }
+
+    body{
+    font-size: 12px;
+    width: 100vh;
+    padding: 20px 100px;
+    }
+    
+    #logo{
+    text-align: center;
+    padding-left: 180px;
+    }
+
+    #link, a{
+    font-size: 12px;
+    }
+}
